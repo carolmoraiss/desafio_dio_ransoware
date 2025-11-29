@@ -1,24 +1,32 @@
-#  Ransomware Simulado – Projeto Educacional em Python
+#  Ransomware Simulado 
 
 Este projeto representa um **ransomware simulado**, criado para fins de estudo e demonstração prática de como malwares desse tipo operam.  
 O script **criptografa e descriptografa arquivos reais**, permitindo visualizar o impacto de um ataque e como a recuperação depende da chave de criptografia.
+
+
+
+
+
 
 > Uso EXCLUSIVAMENTE EDUCACIONAL  
 ---
 
 ## Estrutura do Projeto
 
+
+```txt
 desafio/
 │
-├── arquivos_alvo/ # Documentos-alvo da simulação
-│ └── senhas.txt # Exemplo de arquivo sensível (antes e depois criptografado)
+├── arquivos_alvo/                  # Documentos-alvo da simulação
+│   └── senhas.txt                  # Exemplo de arquivo sensível (antes e depois criptografado)
 │
 └── ransomware/
-├── criar_chave.py # Gera a chave de criptografia
-├── criptografar.py # Realiza o ataque (criptografa os arquivos)
-├── descriptografar.py # Restaura os arquivos encriptados
-├── chave.key # (gerado após criar_chave.py)
-└── mensagem_resgate.txt # (gerado após criptografia)
+    ├── criar_chave.py              # Gera a chave de criptografia
+    ├── criptografar.py             # Realiza o ataque (criptografa os arquivos)
+    ├── descriptografar.py          # Restaura os arquivos criptografados
+    ├── chave.key                   # (gerado após rodar criar_chave.py)
+    └── mensagem_resgate.txt        # (gerado após criptografia)
+```
 
 ##  Requisitos
 
