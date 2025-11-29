@@ -67,3 +67,23 @@ python descriptografar.py
 
 Usa chave.key para recuperar os dados:
 os arquivos retornam ao estado original.
+
+
+## Se Protegendo
+ O projeto é apenas estudo — na prática, ransomware é perigoso.
+
+Para se proteger:
+
+Mantenha backups atualizados e guardados fora do computador principal
+
+- Não abra anexos ou links suspeitos em e-mails ou mensagens
+
+- Use antivírus/EDR atualizado para detectar atividades maliciosas
+
+- Mantenha o sistema e programas sempre atualizados
+
+- Use senhas fortes + autenticação em duas etapas (2FA)
+
+- Evite executar programas desconhecidos ou piratas
+
+Pequenos cuidados evitam perdas graves de dados. 
